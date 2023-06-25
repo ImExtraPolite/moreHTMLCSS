@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 124, 0);
+    margin-bottom: 0px;
+}
+
+.titleImg {
+    flex-grow: 1;
+}
+
+.titleImg img {
+    float: right;
+}
+
+.title{
+    flex-grow: 2;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 3rem;
+    color: rgb(64, 201, 0);
+}
+
+.title p{
+    font-size: 2rem;
+}
+
+.deal {
+    margin-top: 0px;
+    background-color: rgb(64, 201, 0);
+}
+
+.deal p {
+    text-align: center;
+}
