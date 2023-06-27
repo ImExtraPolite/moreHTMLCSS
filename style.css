@@ -90,3 +90,50 @@ body {
 .middleRight p {
     font-size: 1.5rem;
 }
+
+.itemRow1Title, .giftRowTitle {
+    margin: auto;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.itemRow1Title h2, .giftRowTitle h2 {
+    margin: 0 0 10px 15px;
+    /* margin-bottom: 10px; */
+    font-size: 2rem;
+}
+
+.itemRow1Title hr {
+    margin-bottom: 50px;
+}
+
+hr {
+    background-color: white;
+    padding: 2px;
+    border: 0;
+}
+
+.itemRow1, .itemRow2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1, .item2, .item3 {
+    text-align: center;
+}
+
+.item1 h3, .item2 h3, .item3 h3 {
+    color: rgb(64, 201, 0);  
+    padding: 20px;  
+}
+
+.item1 p, .item2 p, .item3 p {
+    padding: 10px 0;  
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    border: 0;
+    font-size: 1rem;
+}
