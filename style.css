@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
 .top {
     display: flex;
     justify-content: center;
@@ -27,6 +33,7 @@
 
 .title h1 {
     font-size: 3rem;
+    padding: 40px 0;
     color: rgb(64, 201, 0);
 }
 
@@ -35,10 +42,30 @@
 }
 
 .deal {
-    margin-top: 0px;
+    padding: 20px 0;
     background-color: rgb(64, 201, 0);
 }
 
 .deal p {
     text-align: center;
+}
+
+.largeImage p {
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    background-color: gray;
+    width: 500px;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+
+.description {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.middleLeft p {
+    
 }
