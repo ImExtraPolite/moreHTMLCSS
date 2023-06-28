@@ -65,6 +65,9 @@ body {
     justify-content: space-evenly;
 }
 
+.middle {
+    padding-bottom: 30px;
+}
 
 .middleLeft p {
     position: absolute;
@@ -137,12 +140,52 @@ button {
     background-color: black;
     border: 0;
     font-size: 1rem;
+    color: white;
+}
+
+button:hover {
+    background-color: gray;
 }
 
 .end {
     background-color: black;
 }
 
+.extra {
+    display: flex;
+    justify-content: space-around;
+}
+
+.extra > div {
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
 li {
-    margin-left: 20px; 
+    list-style: none;
+}
+
+.end hr {
+    margin: auto;
+    width: 95%;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 40px 70px 0;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
 }
