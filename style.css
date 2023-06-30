@@ -103,7 +103,6 @@ body {
 
 .itemRow1Title h2, .giftRowTitle h2 {
     margin: 0 0 10px 15px;
-    /* margin-bottom: 10px; */
     font-size: 2rem;
 }
 
@@ -192,6 +191,8 @@ li {
 
 .modal1, .modal2, .modal3, .modal4, .modal5, .modal6{
     margin: auto;
+    background-color: rgb(106, 124, 0);
+    color: white;
 }
 
 .modal1 hr, .modal2 hr, .modal3 hr, .modal4 hr, .modal5 hr, .modal6 hr{
