@@ -190,6 +190,28 @@ li {
     font-size: 0.8rem;
 }
 
-.modal1 {
+.modal1, .modal2, .modal3, .modal4, .modal5, .modal6{
+    margin: auto;
+}
+
+.modal1 hr, .modal2 hr, .modal3 hr, .modal4 hr, .modal5 hr, .modal6 hr{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.modalFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.modalFlex + div {
+    background-color: rgb(55, 55, 55);
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+.modalFlex + div p {
+    width: 90%;
     margin: auto;
 }
